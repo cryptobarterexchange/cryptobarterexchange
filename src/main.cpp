@@ -2012,7 +2012,7 @@ bool LoadBlockIndex(bool fAllowNew)
     
         
         // Genesis block
-        const char* pszTimestamp = "Feb 14, 2014 10:00 something AM";
+        const char* pszTimestamp = "Jan 27, 2014 10:00 something AM";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
